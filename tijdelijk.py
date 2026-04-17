@@ -11,7 +11,7 @@ reclame_tekst4 = reclame_tekst3.split(" ")
 for el in reclame_tekst4:
     if len(el)>= 5:
         print(el.upper())
-    elif len(el) <= 4:
+    if len(el) <= 4:
         print(el.lower())
 print(reclame_tekst4)
 
